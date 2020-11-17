@@ -1,8 +1,5 @@
-$(function() {
-  $('#back a').on('click',function(event){
-    $('body, html').animate({
-      scrollTop:0
-    }, 800);
-    event.preventDefault();
+$(function(){
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
   });
 });
